@@ -66,32 +66,32 @@ const UserForm = ({createUser, update, updateUser, setUpdate, isShow, setIsShow}
             </div>
             <div className='userform_item'>              
                 <label htmlFor="first_name">First Name </label>
-                <input {...register('first_name')} id='first_name' type="text" />            
+                <input {...register('first_name')} id='first_name' type="text" required />            
             </div>
 
             <div className='userform_item'>            
                 <label htmlFor="last_name">Last Name </label>
-                <input {...register('last_name')} id='last_name' type="text" />         
+                <input {...register('last_name')} id='last_name' type="text" required/>         
             </div>
 
              <div className='userform_item'>            
                 <label htmlFor="email">Email </label>
-                <input {...register('email')} id='email' type="email" />            
+                <input {...register('email')} id='email' type="email"  required/>            
             </div>
 
             <div className='userform_item'>           
                 <label htmlFor="password">Password </label>
-                <input {...register('password')} id='password' type="password" />            
+                <input {...register('password')} id='password' type="password" required />            
             </div>
 
             <div className='userform_item'>           
                 <label htmlFor="birthday">Birthday </label>
-                <input {...register('birthday')} id='birthday' type="date" />            
+                <input {...register('birthday')} id='birthday' type="date" required />            
             </div>
 
             <div className='userform_item'>           
                 <label htmlFor="image_url">Image Url</label>
-                <input {...register('image_url')} id='image_url' type="url" />            
+                <input {...register('image_url')} id='image_url' type="url" required/>            
             </div>
 
             <button className='userform_btn'>
@@ -99,7 +99,7 @@ const UserForm = ({createUser, update, updateUser, setUpdate, isShow, setIsShow}
                     update ?
                         'Update User'
                         :
-                        'Add new User'
+                        'Add new User' 
                    }
             </button>
         </form>
