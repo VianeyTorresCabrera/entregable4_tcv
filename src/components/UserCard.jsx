@@ -55,8 +55,8 @@ const [message, setMessage] = useState(false);
         </ul>
         <hr />
         <div className='usercard_btns'>
-            <button className='usercard_btn_delete' onClick={handleDelete}><img src="../public/assets/delete.svg" alt="" /></button>
-            <button className='usercard_btn_update' onClick={handleEdit} ><img src="../public/assets/edit.svg" alt="" /></button>
+            <button className='usercard_btn_delete' onClick={handleDelete}><img src="..//assets/delete.svg" alt="" /></button>
+            <button className='usercard_btn_update' onClick={handleEdit} ><img src="..//assets/edit.svg" alt="" /></button>
         </div>
         
     </article>
