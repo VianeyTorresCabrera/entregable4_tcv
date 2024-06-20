@@ -1,0 +1,83 @@
+/*RESET*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFFF ;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+ul{
+    list-style: none;    
+}
+
+input,
+button{
+    display: inline-block;
+    cursor: pointer;
+    font-family: inherit;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+input{
+    height: 35px;
+    background-color: #F9FAFC;
+    padding: 5px;
+    color:#2f49bb;
+    border: 1px solid #BDBDBD;
+}
+
+button{
+    border: none;
+    padding: 3px 9px;    
+}
+
+
+.app_header{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #0F0F2D; 
+    padding-top: 30px;  
+    padding-bottom: 40px; 
+}
+
+.app_header_tittle{
+    font-size: 2.5em;
+    margin: 20px; 
+    text-shadow: 3px 4px 3px #555A88;       
+}
+
+
+.app_header_btn{
+    background-color: #555A88; 
+    color: white;
+    width: 200px;   
+    max-height: 40px;
+    margin: 20px;
+    
+}
+
+.app_header_btn:hover{
+    background-color: white; 
+    color: #555A88;
+    font-weight: 700;
+    border: 2px solid #555A88;
+    transition: 0.7s;
+}
+
+.app_container{
+    padding: 20pxs;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:space-evenly;
+}

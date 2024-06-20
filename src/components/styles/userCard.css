@@ -1,0 +1,115 @@
+.usercard{
+    width: 250px;    
+    box-shadow: 1px 2px 4px 2px #E5E5E5,
+                1px 2px 4px 2px #E5E5E5;
+    padding: 20px;
+    border-radius: 30px 10px 30px 10px ;
+    gap:5px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.usercard:hover{
+    background-color: #bdbdbd2d;
+}
+
+hr{
+    border: 0.5px solid #E5E5E5;
+}
+
+.usercard_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.usercard_photo{     
+    border:2px solid #E5E5E5;
+    background-color: white ;    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;      
+    margin-right:20px;          
+}
+
+.usercard_photo img{    
+    width: 100%;
+    height: 100%;    
+    border-radius: 50%; 
+    object-fit: cover;
+    object-position: center;      
+}
+
+.usercard_name{
+    padding-bottom: 5px;
+    color: #0F0F2D;
+    font-size: 100%;
+}
+
+.usercard_list{
+ padding: 5px 0;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;   
+}
+
+.usercard_item{
+    display: flex;
+    flex-direction: column;
+    align-content: center;   
+}
+
+.usercard_item img{    
+    width: 15px;
+    vertical-align: middle;
+}
+
+.usercard_item span:first-child{
+    color: #555A88;
+    font-size: 0.8rem;
+}
+
+.usercard_btns{   
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-top: 5px;
+}
+
+.usercard_btn_delete{
+    background-color: #D93F3F;    
+    font-family: inherit;    
+    border-radius: 5px;
+    padding: 5px;    
+    transition: transform .5s;
+}
+
+.usercard_btn_delete:hover{
+   background-color: red;   
+   transition: transform .5s;
+}
+
+.usercard_btn_update{
+    background-color: #F6F6F6;    
+    font-family: inherit;    
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #BDBDBD;    
+    transition: background-color 0.5s;
+}
+
+.usercard_btn_update:hover{
+    background-color: #555A88;    
+    transition: background-color 0.5s;
+}
+
+
+.usercard_btn_delete img{    
+    width: 20px;    
+}
+
+.usercard_btn_update img{
+    width: 20px;    
+}
+
